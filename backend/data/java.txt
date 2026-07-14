@@ -1,0 +1,45 @@
+Subject: Java Programming
+
+Topics:
+- JVM
+- JDK
+- Exception
+- Interface
+- Collection
+
+------------------------------------------------
+
+JVM
+
+Definition:
+JVM executes Java bytecode.
+
+------------------------------------------------
+
+JDK
+
+Definition:
+JDK provides tools for Java development.
+
+------------------------------------------------
+
+Exception
+
+Definition:
+An exception is a runtime error.
+
+------------------------------------------------
+
+Interface
+
+Definition:
+An interface specifies methods without implementation.
+
+------------------------------------------------
+
+Collection
+
+Definition:
+Collections store groups of objects.
+
+------------------------------------------------

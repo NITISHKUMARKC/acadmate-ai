@@ -1,0 +1,55 @@
+Subject: Numerical Methods
+Course Code: CT655
+
+Topics:
+- Bisection Method
+- False Position Method
+- Newton Raphson Method
+- Secant Method
+
+------------------------------------------------
+
+Newton Raphson Method
+
+Definition:
+Newton Raphson Method is an iterative numerical technique used to find the root of a nonlinear equation.
+
+Formula:
+x(n+1) = x(n) - f(x(n))/f'(x(n))
+
+Algorithm:
+1. Choose initial guess.
+2. Compute f(x) and f'(x).
+3. Apply formula.
+4. Repeat until convergence.
+
+Advantages:
+- Fast convergence
+- High accuracy
+
+Disadvantages:
+- Requires derivative
+- Depends on initial guess
+
+------------------------------------------------
+
+Bisection Method
+
+Definition:
+Bisection Method repeatedly divides an interval into two halves to locate a root.
+
+------------------------------------------------
+
+False Position Method
+
+Definition:
+False Position Method estimates the root using linear interpolation.
+
+------------------------------------------------
+
+Secant Method
+
+Definition:
+Secant Method approximates the derivative using two previous points.
+
+------------------------------------------------

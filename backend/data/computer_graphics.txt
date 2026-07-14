@@ -1,0 +1,37 @@
+Subject: Software Engineering
+
+Topics:
+- SDLC
+- Agile
+- Waterfall
+- Testing
+
+------------------------------------------------
+
+SDLC
+
+Definition:
+Software Development Life Cycle defines software development phases.
+
+------------------------------------------------
+
+Agile
+
+Definition:
+Agile focuses on iterative development.
+
+------------------------------------------------
+
+Waterfall
+
+Definition:
+Waterfall is a sequential software process.
+
+------------------------------------------------
+
+Testing
+
+Definition:
+Testing verifies software correctness.
+
+------------------------------------------------

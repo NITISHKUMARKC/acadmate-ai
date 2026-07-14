@@ -1,0 +1,45 @@
+Subject: Operating System
+
+Topics:
+- Process
+- Thread
+- Scheduling
+- Deadlock
+- Memory Management
+
+------------------------------------------------
+
+Process
+
+Definition:
+A process is a program in execution.
+
+------------------------------------------------
+
+Thread
+
+Definition:
+A thread is the smallest unit of execution.
+
+------------------------------------------------
+
+Scheduling
+
+Definition:
+Scheduling decides which process executes next.
+
+------------------------------------------------
+
+Deadlock
+
+Definition:
+Deadlock occurs when processes wait indefinitely.
+
+------------------------------------------------
+
+Memory Management
+
+Definition:
+Memory Management controls RAM allocation.
+
+------------------------------------------------

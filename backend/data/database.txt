@@ -1,0 +1,45 @@
+Subject: Database Management System
+
+Topics:
+- Database
+- DBMS
+- ER Model
+- Normalization
+- SQL
+
+------------------------------------------------
+
+Database
+
+Definition:
+A database is an organized collection of related data.
+
+------------------------------------------------
+
+DBMS
+
+Definition:
+DBMS is software used to create and manage databases.
+
+------------------------------------------------
+
+ER Model
+
+Definition:
+ER Model represents entities and relationships.
+
+------------------------------------------------
+
+Normalization
+
+Definition:
+Normalization reduces data redundancy.
+
+------------------------------------------------
+
+SQL
+
+Definition:
+SQL is the standard language for relational databases.
+
+------------------------------------------------

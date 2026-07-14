@@ -1,0 +1,54 @@
+Subject: Data Structures and Algorithms
+
+Topics:
+- Stack
+- Queue
+- Linked List
+- Tree
+- Graph
+
+------------------------------------------------
+
+Stack
+
+Definition:
+A stack is a linear data structure that follows the Last In First Out (LIFO) principle.
+
+Operations:
+- Push
+- Pop
+- Peek
+
+------------------------------------------------
+
+Queue
+
+Definition:
+A queue follows the First In First Out (FIFO) principle.
+
+Operations:
+- Enqueue
+- Dequeue
+
+------------------------------------------------
+
+Linked List
+
+Definition:
+A linked list is a dynamic linear data structure.
+
+------------------------------------------------
+
+Tree
+
+Definition:
+A tree is a hierarchical data structure.
+
+------------------------------------------------
+
+Graph
+
+Definition:
+A graph consists of vertices and edges.
+
+------------------------------------------------

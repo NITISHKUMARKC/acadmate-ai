@@ -1,0 +1,72 @@
+Subject: Object Oriented Programming
+Course Code: CT651
+
+Topics:
+- Class
+- Object
+- Encapsulation
+- Inheritance
+- Polymorphism
+- Abstraction
+
+------------------------------------------------
+
+Class
+
+Definition:
+A class is a blueprint for creating objects.
+
+Example:
+class Student {}
+
+------------------------------------------------
+
+Object
+
+Definition:
+An object is an instance of a class.
+
+Example:
+Student s = new Student();
+
+------------------------------------------------
+
+Inheritance
+
+Definition:
+Inheritance allows one class to acquire the properties and methods of another class.
+
+Syntax:
+class Child extends Parent
+
+Advantages:
+- Code Reusability
+- Easy Maintenance
+- Hierarchical Relationship
+
+------------------------------------------------
+
+Polymorphism
+
+Definition:
+Polymorphism allows one interface to represent multiple forms.
+
+Types:
+- Compile-time
+- Run-time
+
+------------------------------------------------
+
+Encapsulation
+
+Definition:
+Encapsulation is the process of binding data and methods together into a single unit.
+
+------------------------------------------------
+
+Abstraction
+
+Definition:
+Abstraction hides implementation details and shows only essential features.
+
+------------------------------------------------
