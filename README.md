@@ -1,2 +1,22 @@
-# acadmate-ai
-AI-powered academic companion for engineering students with syllabus-aware tutoring, assignment tracking, and SGPA/CGPA management.
+# AcadMate AI
+
+AcadMate AI is an AI-powered academic companion for engineering students.
+
+## Features
+
+- 📚 NanoSyllabus AI Tutor
+- 📅 Assignment Tracker
+- 📊 SGPA Calculator
+- 🎯 Academic Dashboard
+
+## Tech Stack
+
+- HTML
+- CSS
+- JavaScript
+- FastAPI
+- Git & GitHub
+
+## Project Status
+
+🚧 Under Development
