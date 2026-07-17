@@ -43,3 +43,19 @@ Definition:
 Collections store groups of objects.
 
 ------------------------------------------------
+Inheritance
+
+Inheritance is an Object-Oriented Programming concept where one class acquires the properties and methods of another class.
+
+Advantages:
+- Code Reusability
+- Easy Maintenance
+- Extensibility
+
+Example:
+
+class Animal:
+    pass
+
+class Dog(Animal):
+    pass
