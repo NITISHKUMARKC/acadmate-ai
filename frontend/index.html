@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AcadMate AI | Offline Intelligent Study Assistant</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header>
+
+        <div class="logo">
+            <h1>AcadMate AI</h1>
+            <p>Offline Intelligent Study Assistant</p>
+        </div>
+
+    </header>
+
+    <!-- ================= MAIN ================= -->
+
+    <main>
+
+        <!-- Question Card -->
+
+        <section class="container">
+
+            <h2>Ask Your Academic Questions</h2>
+
+            <p class="subtitle">
+                Search your study notes instantly without an internet connection.
+            </p>
+
+            <!-- Subject -->
+
+            <div class="form-group">
+
+                <label for="subject">Select Subject</label>
+
+                <select id="subject">
+
+                    <option value="java">Java Programming</option>
+
+                    <option value="dsa">Data Structures & Algorithms</option>
+
+                    <option value="dbms">Database Management System</option>
+
+                    <option value="operating_system">Operating System</option>
+
+                    <option value="computer_network">Computer Network</option>
+
+                    <option value="software_engineering">Software Engineering</option>
+
+                    <option value="computer_graphics">Computer Graphics</option>
+
+                    <option value="numerical_methods">Numerical Methods</option>
+
+                </select>
+
+            </div>
+
+            <!-- Question -->
+
+            <div class="form-group">
+
+                <label for="question">Enter Your Question</label>
+
+                <textarea
+                    id="question"
+                    rows="6"
+                    placeholder="Example: Explain inheritance with example."
+                ></textarea>
+
+            </div>
+
+            <!-- Button -->
+
+            <button id="askBtn">
+
+                Ask AI
+
+            </button>
+
+        </section>
+
+        <!-- Answer Card -->
+
+        <section class="answer-card">
+
+            <h3>Answer</h3>
+
+            <div id="answer">
+
+                Waiting for your question...
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>
+            © 2026 AcadMate AI | Built with FastAPI, HTML, CSS & JavaScript
+        </p>
+
+    </footer>
+
+    <!-- JavaScript -->
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
