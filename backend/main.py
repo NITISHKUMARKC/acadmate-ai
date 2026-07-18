@@ -72,3 +72,4 @@ def ask(data: Question):
         "question": data.question,
         "answer": answer
     }
+    

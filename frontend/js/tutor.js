@@ -6,24 +6,22 @@ const askButton = getElement("askBtn");
 const subjectSelect = getElement("subject");
 const questionInput = getElement("question");
 
-
 // ========================================
-// Ask Button Click
+// Ask Button Click Event
 // ========================================
 
 askButton.addEventListener("click", async function () {
 
-    // ========================================
+    // ------------------------------------
     // Read User Input
-    // ========================================
+    // ------------------------------------
 
     const subject = subjectSelect.value.trim();
     const question = questionInput.value.trim();
 
-
-    // ========================================
+    // ------------------------------------
     // Input Validation
-    // ========================================
+    // ------------------------------------
 
     if (question === "") {
 
@@ -33,35 +31,67 @@ askButton.addEventListener("click", async function () {
 
     }
 
-
-    // ========================================
-    // Show Loading
-    // ========================================
+    // ------------------------------------
+    // Show Loading Message
+    // ------------------------------------
 
     showLoading();
 
+    try {
 
-    // ========================================
-    // Send Request to FastAPI
-    // ========================================
+        // ------------------------------------
+        // Send Request to Backend
+        // ------------------------------------
 
-    const response = await fetch(
-        "http://127.0.0.1:8000/ask",
-        {
-            method: "POST",
+        const response = await fetch(
+            "http://127.0.0.1:8000/ask",
+            {
+                method: "POST",
 
-            headers: {
-                "Content-Type": "application/json"
-            },
+                headers: {
+                    "Content-Type": "application/json"
+                },
 
-            body: JSON.stringify({
-                subject: subject,
-                question: question
-            })
+                body: JSON.stringify({
+                    subject: subject,
+                    question: question
+                })
+
+            }
+        );
+
+        // ------------------------------------
+        // Convert Response to JSON
+        // ------------------------------------
+
+        const result = await response.json();
+
+        // ------------------------------------
+        // Check Response Status
+        // ------------------------------------
+
+        if (response.ok) {
+
+            updateAnswer(result.answer);
+
+        } else {
+
+            showError(result.detail || "Something went wrong.");
 
         }
-    );
 
-    // Block 7 starts here...
+    }
+
+    // ------------------------------------
+    // Handle Connection Errors
+    // ------------------------------------
+
+    catch (error) {
+
+        console.error(error);
+
+        showError("Unable to connect to the backend server.");
+
+    }
 
 });
